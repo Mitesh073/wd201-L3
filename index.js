@@ -41,10 +41,6 @@ const todoList = () => {
     return { all, add, markAsComplete, overdue, dueToday, dueLater, toDisplayableList };
   }
   
-  // ####################################### #
-  // DO NOT CHANGE ANYTHING BELOW THIS LINE. #
-  // ####################################### # 
-  
   const todos = todoList();
   
   const formattedDate = d => {
